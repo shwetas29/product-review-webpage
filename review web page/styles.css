@@ -1,0 +1,63 @@
+.container{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  float: center;
+  background-color: #F0D6FC;
+  padding-left: 50px;
+}
+
+.h12{
+  color: #191970;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column{
+  float: left;
+  padding-right: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: #EADFF6;
+  border-radius: 10px;
+}
+img{
+    border-radius: 10px 10px 0 0;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.price {
+  color: #191970;
+  font-size: 22px;
+}
+
+.checked {
+  color: orange;
+}
+
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
